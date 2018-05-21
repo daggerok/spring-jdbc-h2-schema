@@ -5,7 +5,14 @@ This repo showing how setup:
 - spring-boot JDBC
 - filesystem based h2 database in MySQL mode
 
-branch link:https://github.com/daggerok/spring-jdbc-h2-schema/tree/java-config[java-config] contains jdbc DDL/DML populator java configuration
+branch link:https://github.com/daggerok/spring-jdbc-h2-schema/tree/java-config/[java-config] contains jdbc DDL/DML
+populator java configuration
+
+branch link:https://github.com/daggerok/spring-jdbc-h2-schema/tree/default-schame-and-data-files-location/[default-schame-and-data-files-location]
+contains jdbc DDL/DML populator by default spring-boot initialize database convention:
+
+- `src/main/resources/schema.sql` DDL scripts
+- `src/main/resources/data.sql` DML scripts
 
 links:
 
