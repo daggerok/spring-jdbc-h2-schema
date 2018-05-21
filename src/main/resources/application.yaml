@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    include:
+    - jdbc-h2
+    - spring-boot
